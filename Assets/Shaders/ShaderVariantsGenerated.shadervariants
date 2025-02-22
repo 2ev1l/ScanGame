@@ -1,0 +1,1885 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: ShaderVariantsGenerated
+  m_Shaders:
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: 
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SHADOWS_SOFT
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 15104, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 15105, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 15106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10753, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: FOG_EXP2
+        passType: 0
+  - first: {fileID: 209, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10757, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 19011, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    second:
+      variants:
+      - keywords: _OUTPUT_DEPTH
+        passType: 0
+  - first: {fileID: 4800000, guid: 65df88701913c224d95fc554db28381a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e7857e9d0c934dc4f83f270f8447b006, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _BLOOM_LQ _CHROMATIC_ABERRATION _DISTORTION _TONEMAP_ACES
+        passType: 0
+      - keywords: _BLOOM_LQ _TONEMAP_ACES
+        passType: 0
+  - first: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 93446b5c5339d4f00b85c159e1159b7c, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 0849e84e3d62649e8882e9d6f056a017, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _INTERLEAVED_GRADIENT _SAMPLE_COUNT_HIGH _SOURCE_DEPTH_NORMALS
+        passType: 0
+  - first: {fileID: 4800000, guid: 2aed67ad60045d54ba3a00c91e2d2631, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 1edcd131364091c46a17cbff0b1de97a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 5f1864addb451f54bae8c86d230f736e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: _METALLICSPECGLOSSMAP
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _METALLICSPECGLOSSMAP
+          _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _MAIN_LIGHT_SHADOWS_CASCADE _NORMALMAP
+        passType: 13
+      - keywords: INSTANCING_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _NORMALMAP _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: INSTANCING_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _MAIN_LIGHT_SHADOWS_CASCADE _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: INSTANCING_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE _NORMALMAP
+        passType: 13
+      - keywords: INSTANCING_ON _NORMALMAP
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _EMISSION _MAIN_LIGHT_SHADOWS_CASCADE _METALLICSPECGLOSSMAP
+          _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _METALLICSPECGLOSSMAP _NORMALMAP
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _NORMALMAP _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+          _NORMALMAP
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _EMISSION
+          _MAIN_LIGHT_SHADOWS_CASCADE _METALLICSPECGLOSSMAP _NORMALMAP _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS
+          _METALLICSPECGLOSSMAP _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE
+          _METALLICSPECGLOSSMAP _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE
+          _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _METALLICSPECGLOSSMAP _NORMALMAP _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS _NORMALMAP
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE _NORMALMAP
+        passType: 13
+      - keywords: _NORMALMAP
+        passType: 13
+  - first: {fileID: 4800000, guid: 0406db5a14f94604a8c57ccfbc9f3b46, type: 3}
+    second:
+      variants:
+      - keywords: _EMISSION _FADING_ON _SCREEN_SPACE_OCCLUSION _SOFTPARTICLES_ON
+          _SURFACE_TYPE_TRANSPARENT
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 9b4e681081e2b4c469111bb649e2f7ee,
+      type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _DBUFFER_MRT3
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 50b406436c6214c49aaaa6011b71dde8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 5caf62d8bd7c44596ace77ef9eb8ea31, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: f056d8bd2a1c7e44e9729144b4c70395, type: 3}
+    second:
+      variants:
+      - keywords: _DBUFFER_MRT3
+        passType: 0
+  - first: {fileID: 4800000, guid: 36e335017ad71d54fbb10842863188ae, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 4293210a3280c4283b9872316017f1f9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: a36b7719ff0465b42ab1407d67672c5f, type: 3}
+    second:
+      variants:
+      - keywords: BLUR_ON CLIPPING_ON OUTBASEPIXELPERF_ON
+        passType: 0
+      - keywords: CLIPPING_ON FOG_EXP2 GLOW_ON OUTBASEPIXELPERF_ON OUTBASE_ON SHADOW_ON
+        passType: 0
+      - keywords: CLIPPING_ON FOG_EXP2 GLOW_ON SHADOW_ON
+        passType: 0
+      - keywords: CLIPPING_ON GLOWTEX_ON GLOW_ON INNEROUTLINE_ON ONLYINNEROUTLINE_ON
+          OUTBASE8DIR_ON OUTDIST_ON
+        passType: 0
+      - keywords: CLIPPING_ON GLOWTEX_ON GLOW_ON OUTBASEPIXELPERF_ON OUTBASE_ON SHADOW_ON
+        passType: 0
+      - keywords: CLIPPING_ON GLOW_ON INNEROUTLINE_ON ONLYINNEROUTLINE_ON OUTBASE8DIR_ON
+          OUTDIST_ON
+        passType: 0
+      - keywords: CLIPPING_ON GLOW_ON INNEROUTLINE_ON OUTBASEPIXELPERF_ON
+        passType: 0
+      - keywords: CLIPPING_ON GLOW_ON OUTBASEPIXELPERF_ON
+        passType: 0
+      - keywords: CLIPPING_ON GLOW_ON OUTBASEPIXELPERF_ON OUTBASE_ON SHADOW_ON
+        passType: 0
+      - keywords: CLIPPING_ON GLOW_ON SHADOW_ON
+        passType: 0
+      - keywords: GLOWTEX_ON GLOW_ON GRADIENT2COL_ON GRADIENT_ON
+        passType: 0
+      - keywords: GLOW_ON INNEROUTLINE_ON ONLYINNEROUTLINE_ON PINCH_ON POSTERIZEOUTLINE_ON
+          ROUNDWAVEUV_ON
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 780e3cf7a66674a41bd9c8ba3ec7ce45,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 23aeca8b2537def4f8281ac2bc01e19b,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: 
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: 906ddefdbb09a484ea231ad957cac429,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 318656d48ce314649be6164e2eeaac49,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: d3c24a2c4a7c7ce47919d41d99751cda, type: 3}
+    second:
+      variants:
+      - keywords: FOG_EXP2 INSTANCING_ON VLB_ALPHA_AS_BLACK VLB_ATTENUATION_QUAD
+          VLB_RAYMARCHING_QUALITY_1
+        passType: 0
+      - keywords: INSTANCING_ON VLB_ALPHA_AS_BLACK VLB_ATTENUATION_LINEAR VLB_RAYMARCHING_QUALITY_0
+        passType: 0
+      - keywords: INSTANCING_ON VLB_ALPHA_AS_BLACK VLB_ATTENUATION_QUAD VLB_RAYMARCHING_QUALITY_1
+        passType: 0
+  - first: {fileID: 4800000, guid: a15b3fd0ee7c496a803e885a28591e3a, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: SHADOWS_SHADOWMASK
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
+        passType: 8
+      - keywords: SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER _APPEARGRADIENTENABLED_ON
+          _INNERRIMENABLED_ON _INNERRIMMASKFLIP_ON _PARALLAXNOISEENABLED_ON
+        passType: 8
+      - keywords: SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER _PARALLAXNOISEENABLED_ON
+          _RAMPENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 8
+      - keywords: 
+        passType: 11
+  - first: {fileID: 4800000, guid: 815a0b5fe3a04de6878117020fc75f04, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL _DISTORTIONENABLED_ON
+        passType: 4
+  - first: {fileID: 4800000, guid: e42596c1885b4088b1933335fba60762, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+  - first: {fileID: 4800000, guid: 362fbad5fd7549c698cc964f2cb7699b, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: SHADOWS_SHADOWMASK
+        passType: 4
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH UNITY_PASS_SHADOWCASTER
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: 5a3e65935a267ad45a19b27fe3bf5060,
+      type: 3}
+    second:
+      variants:
+      - keywords: _CRACKSENABLED_ON _LAVANOISEENABLED_ON
+        passType: 0
+      - keywords: _CRACKSENABLED_ON _LAVANOISEENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _CRACKSENABLED_ON _LAVANOISEENABLED_ON _SCREEN_SPACE_OCCLUSION
+          _SURFACENOISEENABLED_ON
+        passType: 0
+      - keywords: _CRACKSENABLED_ON _LAVANOISEENABLED_ON _SURFACENOISEENABLED_ON
+        passType: 0
+      - keywords: _CRACKSENABLED_ON _SCREEN_SPACE_OCCLUSION _SURFACENOISEENABLED_ON
+        passType: 0
+      - keywords: _CRACKSENABLED_ON _SURFACENOISEENABLED_ON
+        passType: 0
+      - keywords: _CRACKSENABLED_ON _LAVANOISEENABLED_ON
+        passType: 8
+      - keywords: _CRACKSENABLED_ON _LAVANOISEENABLED_ON _SURFACENOISEENABLED_ON
+        passType: 8
+      - keywords: _CRACKSENABLED_ON _SURFACENOISEENABLED_ON
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: d3f0a2763644e614496ee474ac198d87,
+      type: 3}
+    second:
+      variants:
+      - keywords: INSTANCING_ON _DBUFFER_MRT3 _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION
+          _TRISGLAREENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 0
+      - keywords: INSTANCING_ON _RAMPENABLED_ON _TRISGLAREENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 0
+      - keywords: _DBUFFER_MRT3 _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION _TRISGLAREENABLED_ON
+          _VERTICALGRADIENTENABLED_ON
+        passType: 0
+      - keywords: _RAMPENABLED_ON _TRISGLAREENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 0
+      - keywords: INSTANCING_ON _CASTING_PUNCTUAL_LIGHT_SHADOW _RAMPENABLED_ON _TRISGLAREENABLED_ON
+          _VERTICALGRADIENTENABLED_ON
+        passType: 8
+      - keywords: INSTANCING_ON _RAMPENABLED_ON _TRISGLAREENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW _RAMPENABLED_ON _TRISGLAREENABLED_ON
+          _VERTICALGRADIENTENABLED_ON
+        passType: 8
+      - keywords: _RAMPENABLED_ON _TRISGLAREENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: 0b0d41d48b08dfa49bb41a2ef696095e,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _APPEARGRADIENTENABLED_ON _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON
+          _RAMPENABLED_ON
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON
+          _VERTICALGRADIENTENABLED_ON
+        passType: 8
+      - keywords: _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON
+        passType: 8
+      - keywords: _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON
+        passType: 8
+      - keywords: _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 8
+      - keywords: _INNERRIMENABLED_ON _RAMPENABLED_ON
+        passType: 8
+      - keywords: _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 8
+      - keywords: _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON
+        passType: 11
+      - keywords: _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON
+        passType: 11
+      - keywords: _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _INNERRIMENABLED_ON _MAIN_LIGHT_SHADOWS_CASCADE
+          _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _INNERRIMENABLED_ON _MAIN_LIGHT_SHADOWS_CASCADE
+          _PARALLAXNOISEENABLED_ON _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXNOISEENABLED_ON
+          _RAMPENABLED_ON _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT _VERTICALGRADIENTENABLED_ON
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _INNERRIMENABLED_ON _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXNOISEENABLED_ON
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _INNERRIMENABLED_ON _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXNOISEENABLED_ON
+          _RAMPENABLED_ON
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _INNERRIMENABLED_ON _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXNOISEENABLED_ON
+          _RAMPENABLED_ON _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+          _SHADOWS_SOFT _VERTICALGRADIENTENABLED_ON
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _INNERRIMENABLED_ON _MAIN_LIGHT_SHADOWS_CASCADE
+          _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+          _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _APPEARGRADIENTENABLED_ON
+          _INNERRIMENABLED_ON _MAIN_LIGHT_SHADOWS _PARALLAXNOISEENABLED_ON _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _INNERRIMENABLED_ON
+          _MAIN_LIGHT_SHADOWS _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _INNERRIMENABLED_ON
+          _MAIN_LIGHT_SHADOWS _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION _VERTICALGRADIENTENABLED_ON
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _INNERRIMENABLED_ON
+          _MAIN_LIGHT_SHADOWS _RAMPENABLED_ON _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _VERTICALGRADIENTENABLED_ON
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _APPEARGRADIENTENABLED_ON _INNERRIMENABLED_ON
+          _MAIN_LIGHT_SHADOWS _PARALLAXNOISEENABLED_ON
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _INNERRIMENABLED_ON _MAIN_LIGHT_SHADOWS _PARALLAXNOISEENABLED_ON
+          _RAMPENABLED_ON
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _INNERRIMENABLED_ON _MAIN_LIGHT_SHADOWS _PARALLAXNOISEENABLED_ON
+          _RAMPENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _INNERRIMENABLED_ON _MAIN_LIGHT_SHADOWS _RAMPENABLED_ON
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS _PARALLAXNOISEENABLED_ON
+          _RAMPENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 13
+      - keywords: _APPEARGRADIENTENABLED_ON _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON
+        passType: 13
+      - keywords: _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON
+        passType: 13
+      - keywords: _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON
+        passType: 13
+      - keywords: _INNERRIMENABLED_ON _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 13
+      - keywords: _INNERRIMENABLED_ON _RAMPENABLED_ON
+        passType: 13
+      - keywords: _PARALLAXNOISEENABLED_ON _RAMPENABLED_ON _VERTICALGRADIENTENABLED_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 684cc95f61187234c95586b652bee33a,
+      type: 3}
+    second:
+      variants:
+      - keywords: _RAMPENABLED_ON _RIMMASKENABLED_ON
+        passType: 0
+      - keywords: _RAMPENABLED_ON _RIMMASKENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _RAMPENABLED_ON _RIMMASKENABLED_ON
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: a02c41097dd31a74ca0833881a6b39b1,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DBUFFER_MRT3 _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 28890434b7404a74095bc3cb05f55aed,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DBUFFER_MRT3 _DISTORTIONENABLED_ON _NOISE01RADIAL_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _DBUFFER_MRT3 _NOISE01RADIAL_ON _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _DBUFFER_MRT3 _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _DISSOLVETEXTURERADIAL_ON _DISTORTIONENABLED_ON _RAMPENABLED_ON
+          _SCREEN_SPACE_OCCLUSION _SOFTPARTICLESENABLED_ON
+        passType: 0
+      - keywords: _DISSOLVETEXTURERADIAL_ON _DISTORTIONENABLED_ON _RAMPENABLED_ON
+          _SOFTPARTICLESENABLED_ON
+        passType: 0
+      - keywords: _DISSOLVETEXTURERADIAL_ON _NOISE01RADIAL_ON _RAMPENABLED_ON
+        passType: 0
+      - keywords: _DISSOLVETEXTURERADIAL_ON _NOISE01RADIAL_ON _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _DISTORTIONENABLED_ON
+        passType: 0
+      - keywords: _DISTORTIONENABLED_ON _NOISE01RADIAL_ON
+        passType: 0
+      - keywords: _DISTORTIONENABLED_ON _NOISE01RADIAL_ON _RAMPENABLED_ON
+        passType: 0
+      - keywords: _DISTORTIONENABLED_ON _NOISE01RADIAL_ON _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _DISTORTIONENABLED_ON _NOISE01RADIAL_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _DISTORTIONENABLED_ON _RAMPENABLED_ON
+        passType: 0
+      - keywords: _DISTORTIONENABLED_ON _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _DISTORTIONENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _NOISE01RADIAL_ON _RAMPENABLED_ON
+        passType: 0
+      - keywords: _NOISE01RADIAL_ON _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _RAMPENABLED_ON
+        passType: 0
+      - keywords: _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: _DISSOLVETEXTURERADIAL_ON _DISTORTIONENABLED_ON _RAMPENABLED_ON
+          _SOFTPARTICLESENABLED_ON
+        passType: 8
+      - keywords: _DISSOLVETEXTURERADIAL_ON _NOISE01RADIAL_ON _RAMPENABLED_ON
+        passType: 8
+      - keywords: _DISTORTIONENABLED_ON
+        passType: 8
+      - keywords: _DISTORTIONENABLED_ON _NOISE01RADIAL_ON
+        passType: 8
+      - keywords: _DISTORTIONENABLED_ON _NOISE01RADIAL_ON _RAMPENABLED_ON
+        passType: 8
+      - keywords: _DISTORTIONENABLED_ON _RAMPENABLED_ON
+        passType: 8
+      - keywords: _NOISE01RADIAL_ON _RAMPENABLED_ON
+        passType: 8
+      - keywords: _RAMPENABLED_ON
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: 713d96115512ab64fb01037def5d71a4,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: 
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: c7e28235b80d40a4aa279be316006caf,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _DBUFFER_MRT3 _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _RAMPENABLED_ON
+        passType: 0
+      - keywords: _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: _RAMPENABLED_ON
+        passType: 8
+  - first: {fileID: -6465566751694194690, guid: 4e11911a9b9313346925170bf2b846c5,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW _RIMEMISSIONAFFECTSMASK_ON _RIMEMISSIONENABLED_ON
+        passType: 8
+      - keywords: _RIMEMISSIONAFFECTSMASK_ON _RIMEMISSIONENABLED_ON
+        passType: 8
+      - keywords: _RIMEMISSIONENABLED_ON
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: _RIMEMISSIONAFFECTSMASK_ON _RIMEMISSIONENABLED_ON
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _RIMEMISSIONAFFECTSMASK_ON _RIMEMISSIONENABLED_ON
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _MAIN_LIGHT_SHADOWS_CASCADE _RIMEMISSIONAFFECTSMASK_ON _RIMEMISSIONENABLED_ON
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _RIMEMISSIONAFFECTSMASK_ON
+          _RIMEMISSIONENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _RIMEMISSIONENABLED_ON
+          _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS _RIMEMISSIONAFFECTSMASK_ON
+          _RIMEMISSIONENABLED_ON
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS _RIMEMISSIONENABLED_ON
+        passType: 13
+      - keywords: _RIMEMISSIONAFFECTSMASK_ON _RIMEMISSIONENABLED_ON
+        passType: 13
+      - keywords: _RIMEMISSIONENABLED_ON
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: c444735a99fc1c64cb2c3aca113bbbe4,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _RAMPENABLED_ON
+        passType: 0
+      - keywords: _RAMPENABLED_ON _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: _RAMPENABLED_ON
+        passType: 8
+  - first: {fileID: 4800000, guid: 68e6db2ebdc24f95958faec2be5558d6, type: 3}
+    second:
+      variants:
+      - keywords: BEVEL_ON
+        passType: 0
+      - keywords: GLOW_ON
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: bca44fe3452e7bc47ad376b9f0ea9c37,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED FOG_EXP2 LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED INSTANCING_ON LIGHTMAP_ON SHADOWS_SHADOWMASK
+          _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: FOG_EXP2 SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: FOG_EXP2 _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: INSTANCING_ON
+        passType: 13
+      - keywords: INSTANCING_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: INSTANCING_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: INSTANCING_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 96650f8e20f59e74b912857f68df1943,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: INSTANCING_ON
+        passType: 13
+      - keywords: INSTANCING_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: INSTANCING_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: INSTANCING_ON _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: INSTANCING_ON _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: dc0bdc8c8fea9f1489f9a7069b32880e,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: _SCREEN_SPACE_OCCLUSION
+        passType: 0
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 13
+  - first: {fileID: -6465566751694194690, guid: 19526ff72242a5c40bfbf181e59d2a31,
+      type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: _CASTING_PUNCTUAL_LIGHT_SHADOW
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: DIRLIGHTMAP_COMBINED LIGHTMAP_ON SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS
+          _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING
+          _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SCREEN_SPACE_OCCLUSION _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS
+          _MAIN_LIGHT_SHADOWS_CASCADE _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+      - keywords: SHADOWS_SHADOWMASK _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS_CASCADE
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _DBUFFER_MRT3 _MAIN_LIGHT_SHADOWS_CASCADE
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+          _SHADOWS_SOFT
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS
+          _REFLECTION_PROBE_BLENDING _REFLECTION_PROBE_BOX_PROJECTION _SCREEN_SPACE_OCCLUSION
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHTS _MAIN_LIGHT_SHADOWS
+        passType: 13
+  - first: {fileID: 4800000, guid: 55fcd8cae15234dbeba59eb9603e7779, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 7bf9ac6e31ad1f74a9e8bac68128555d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
