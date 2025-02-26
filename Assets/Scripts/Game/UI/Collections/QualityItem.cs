@@ -15,12 +15,9 @@ namespace Game.UI.Collections
             value = param;
             int textId = value switch
             {
-                0 => 43,
-                1 => 44,
-                2 => 45,
-                3 => 46,
-                4 => 47,
-                5 => 48,
+                0 => 14,
+                1 => 15,
+                2 => 16,
                 _ => -1
             };
             Text.text = LanguageLoader.GetTextByType(TextType.Menu, textId);

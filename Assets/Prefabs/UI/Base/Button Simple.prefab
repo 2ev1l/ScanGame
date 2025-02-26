@@ -202,7 +202,7 @@ MonoBehaviour:
   - {fileID: 2100000, guid: d6ea64f90e7f4a24f9109971b44fe13e, type: 2}
   colors:
   - {r: 1, g: 1, b: 1, a: 1}
-  - {r: 0.6784314, g: 0.8509804, b: 0.95686275, a: 1}
+  - {r: 0.8862746, g: 0.3803922, b: 0.3803922, a: 1}
 --- !u!1001 &4722252612890693165
 PrefabInstance:
   m_ObjectHideFlags: 0

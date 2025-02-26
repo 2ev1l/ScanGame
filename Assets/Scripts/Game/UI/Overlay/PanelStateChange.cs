@@ -1,6 +1,7 @@
 using EditorCustom.Attributes;
 using UnityEngine;
 using Universal.Behaviour;
+using UnityEngine.Events;
 
 #if UNITY_EDITOR
 using UnityEditor;
@@ -11,6 +12,8 @@ namespace Game.UI.Overlay
     public class PanelStateChange : StateChange
     {
         #region fields & properties
+        public UnityEvent OnPanelActive;
+        public UnityEvent OnPanelDisabled;
         [SerializeField] private GameObject panel;
         #endregion fields & properties
 
@@ -18,7 +21,13 @@ namespace Game.UI.Overlay
         public override void SetActive(bool active)
         {
             if (panel.activeSelf != active)
+            {
                 panel.SetActive(active);
+                if (panel.activeSelf)
+                    OnPanelActive?.Invoke();
+                else
+                    OnPanelDisabled?.Invoke();
+            }
         }
         #endregion methods
 

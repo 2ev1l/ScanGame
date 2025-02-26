@@ -43,36 +43,10 @@ namespace Universal.Serialization
             set => SetRefreshRate(value);
         }
         [SerializeField] private int refreshRate = 60;
-        /// <summary>
-        /// 0.01..inf
-        /// </summary>
-        public Vector2 CameraSensitvity
-        {
-            get => cameraSensitivity;
-            set => SetSensitivity(value);
-        }
-        [SerializeField] private Vector2 cameraSensitivity = Vector2.one;
-        /// <summary>
-        /// 10..105
-        /// </summary>
-        public int CameraFOV
-        {
-            get => cameraFOV;
-            set => SetFOV(value);
-        }
-        [SerializeField] private int cameraFOV = 65;
+
         #endregion fields & properties
 
         #region methods
-        private void SetFOV(int value)
-        {
-            value = Mathf.Clamp(value, 10, 105);
-            cameraFOV = value;
-        }
-        private void SetSensitivity(Vector2 value)
-        {
-            cameraSensitivity = value;
-        }
         private void SetResolution(SimpleResolution value)
         {
             resolution = value;
@@ -91,14 +65,12 @@ namespace Universal.Serialization
             refreshRate = value;
         }
         public GraphicsSettings() { }
-        public GraphicsSettings(SimpleResolution resolution, FullScreenMode screenMode, bool vsync, int refreshRate, Vector2 cameraSensitvity, int fov)
+        public GraphicsSettings(SimpleResolution resolution, FullScreenMode screenMode, bool vsync, int refreshRate)
         {
             Resolution = resolution;
             ScreenMode = screenMode;
             Vsync = vsync;
             RefreshRate = refreshRate;
-            CameraSensitvity = cameraSensitvity;
-            CameraFOV = fov;
         }
         #endregion methods
     }

@@ -307,160 +307,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2dad0f09047cb47bf6f4135dddd5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Context:
-    playerData:
-      monthData:
-        currentMonth: 1
-        gainStatistic:
-          Money: 0
-          CompletedTasks: 0
-          Time: 0
-          Mood: 0
-          Saturation: 0
-        startStatistic:
-          Money: 0
-          CompletedTasks: 0
-          Time: 168
-          Mood: 100
-          Saturation: 0
-        freeTime:
-          value: 168
-          range: {x: 0, y: 168}
-      wallet:
-        value: 4000
-      mood:
-        mood:
-          value: 100
-          range: {x: 0, y: 100}
-      food:
-        canIncreaseSaturation: 1
-        totalSaturation: 0
-        negativeSaturation: 0
-      tasks:
-        startedTasks: []
-        completedTasks: []
-        expiredTasks: []
-      subtitlesData:
-        playedSubtitles:
-          items: 
-      billsData:
-        bills: []
-        hasUnpayedBills: 0
-      houseData:
-        id: 0
-        currentPeopleCount: 1
-      vehicleData:
-        id: -1
-    companyData:
-      rating:
-        rating:
-          value: 0
-          range: {x: 0, y: 100}
-      foundationDate: 
-      name: 
-      isCreated: 0
-      constructionTasks:
-        startedTasks: []
-        completedTasks: []
-        expiredTasks: []
-      warehouseData:
-        id: -1
-        constructionResources:
-          data:
-            items: []
-      officeData:
-        id: -1
-        divisions:
-          builders:
-            employees: []
-          hrManager:
-            employees: []
-          prManager:
-            employees: []
-          designEngineer:
-            employees: []
-      landPlotsData:
-        plots: []
-        sellingPlots: []
-        soldPlots: []
-        offers: []
-      reviewsData:
-        reviews: []
-    browserData:
-      constructionResourceShop:
-        items: []
-        cart:
-          cart:
-            items: []
-      officeShop:
-        items: []
-        cart:
-          cart:
-            items: []
-      warehouseShop:
-        items: []
-        cart:
-          cart:
-            items: []
-      landPlotShop:
-        items: []
-        cart:
-          cart:
-            items: []
-      buildersRecruit:
-        items: []
-        cart:
-          cart:
-            items: []
-      hrRecruit:
-        items: []
-        cart:
-          cart:
-            items: []
-      prRecruit:
-        items: []
-        cart:
-          cart:
-            items: []
-      designEngineerRecruit:
-        items: []
-        cart:
-          cart:
-            items: []
-      houseShop:
-        items: []
-        cart:
-          cart:
-            items: []
-      foodShop:
-        items: []
-        cart:
-          cart:
-            items: []
-      vehicleShop:
-        items: []
-        cart:
-          cart:
-            items: []
-    locationsData:
-      currentLocationId: 0
-    environmentData:
-      lastTransportUsed: 0
-      collectibles:
-        items: 
-    blueprintsData:
-      blueprints: []
-      totalBlueprintsAdded: -1
-    constructionsData:
-      constructions: []
   doAutoSave: 1
   autoSaveSeconds: 60
   storedTime: 0
-  taskToDebug: 0
-  consturctionToDebug: 0
-  houseToDebug: 1
-  vehicleToDebug: 1
-  collectibleToDebug: 1
 --- !u!1 &2473235926104762608
 GameObject:
   m_ObjectHideFlags: 0
@@ -522,7 +371,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: -208022129
   m_SortingOrder: 50
@@ -664,8 +513,6 @@ MonoBehaviour:
       blockLevels: 
     inputUI:
       blockLevels: 
-    inputOverlay:
-      blockLevels: 
     inputEventSystem:
       blockLevels: 
 --- !u!114 &389061053404173928
@@ -739,7 +586,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: -208022129
   m_SortingOrder: 100

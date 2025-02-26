@@ -110,8 +110,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4629869640083386536}
-        m_TargetAssemblyTypeName: Universal.UI.Graphics.GraphicActions, Universal.UI.Graphics
-        m_MethodName: ChangeMaterial
+        m_TargetAssemblyTypeName: Universal.UI.Graphics.GraphicActions, Game.UI.Graphics
+        m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -125,8 +125,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 4629869640083386536}
-        m_TargetAssemblyTypeName: Universal.UI.Graphics.GraphicActions, Universal.UI.Graphics
-        m_MethodName: ChangeMaterial
+        m_TargetAssemblyTypeName: Universal.UI.Graphics.GraphicActions, Game.UI.Graphics
+        m_MethodName: ChangeColor
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -152,4 +152,6 @@ MonoBehaviour:
   materials:
   - {fileID: 0}
   - {fileID: 2100000, guid: d6ea64f90e7f4a24f9109971b44fe13e, type: 2}
-  colors: []
+  colors:
+  - {r: 1, g: 1, b: 1, a: 1}
+  - {r: 0.9433962, g: 0.493948, b: 0.493948, a: 1}

@@ -15,9 +15,9 @@ namespace Game.UI.Collections
         {
             int textId = (FullScreenMode)param switch
             {
-                FullScreenMode.ExclusiveFullScreen => 40,
-                FullScreenMode.FullScreenWindow => 41,
-                FullScreenMode.Windowed => 42,
+                FullScreenMode.ExclusiveFullScreen => 22,
+                FullScreenMode.FullScreenWindow => 23,
+                FullScreenMode.Windowed => 24,
                 _ => -1
             };
             Text.text = LanguageLoader.GetTextByType(TextType.Menu, textId);

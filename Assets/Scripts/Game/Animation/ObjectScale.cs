@@ -29,6 +29,8 @@ namespace Game.Animation
             ScaleTo(scales[currentScaleId]);
         }
         [SerializedMethod]
+        public void ScaleTo(int scaleId) => ScaleTo(scales[scaleId]);
+        [SerializedMethod]
         public void ScaleTo(Vector3 scale) => ScaleTo(new ScaleInfo(scale, 1));
         [SerializedMethod]
         public void ScaleTo(ScaleInfo info)

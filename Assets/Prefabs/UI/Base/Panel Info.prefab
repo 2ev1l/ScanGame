@@ -504,7 +504,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 285953476593760474, guid: 946428ea380dbc145bb43f4b9a7da34e, type: 3}
       propertyPath: id
-      value: 37
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 850734740562004257, guid: 946428ea380dbc145bb43f4b9a7da34e, type: 3}
       propertyPath: m_Sprite

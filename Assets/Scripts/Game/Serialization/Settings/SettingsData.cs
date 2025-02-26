@@ -19,13 +19,11 @@ namespace Game.Serialization.Settings
         public UnityAction<LanguageSettings> OnLanguageChanged;
         public UnityAction<GraphicsSettings> OnGraphicsChanged;
         public UnityAction<PostEffectSettings> OnPostEffectsChanged;
-        public UnityAction<QualitySettings> OnQualityChanged;
         public UnityAction<TerrainSettings> OnTerrainChanged;
 
         [SerializeField] private LanguageSettings languageSettings = new();
         [SerializeField] private GraphicsSettings graphicsSettings = new();
         [SerializeField] private PostEffectSettings postEffectSettings = new();
-        [SerializeField] private QualitySettings qualitySettings = new();
 
         [SerializeField] private AudioSettings audioSettings = new();
         [SerializeField] private KeyCodeSettings keyCodeSettings = new();
@@ -41,7 +39,6 @@ namespace Game.Serialization.Settings
             get => graphicsSettings;
             set => SetGraphics(value);
         }
-
         public AudioSettings AudioSettings
         {
             get => audioSettings;
@@ -55,11 +52,6 @@ namespace Game.Serialization.Settings
         {
             get => keyCodeSettings;
         }
-        public QualitySettings QualitySettings
-        {
-            get => qualitySettings;
-            set => SetQuality(value);
-        }
 
         public bool IsFirstLaunch
         {
@@ -69,11 +61,6 @@ namespace Game.Serialization.Settings
         #endregion fields & properties
 
         #region methods
-        private void SetQuality(QualitySettings value)
-        {
-            qualitySettings = value;
-            OnQualityChanged?.Invoke(value);
-        }
         private void SetPostEffects(PostEffectSettings value)
         {
             postEffectSettings = value;

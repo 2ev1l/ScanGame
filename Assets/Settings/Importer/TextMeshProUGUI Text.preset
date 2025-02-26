@@ -83,7 +83,7 @@ Preset:
   - target: {fileID: 0}
     propertyPath: m_fontAsset
     value: 
-    objectReference: {fileID: 11400000, guid: e068d75c24288904baa1526f518458a1, type: 2}
+    objectReference: {fileID: 11400000, guid: 67c14f4b3a4cbf94e9a5c16086a8d961, type: 2}
   - target: {fileID: 0}
     propertyPath: m_sharedMaterial
     value: 
@@ -122,7 +122,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_enableVertexGradient
-    value: 1
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_colorMode
@@ -242,11 +242,11 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_fontSizeMax
-    value: 333
+    value: 36
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_fontStyle
-    value: 32
+    value: 0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_HorizontalAlignment
@@ -402,7 +402,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_hasFontAssetChanged
-    value: 0
+    value: 1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_baseMaterial

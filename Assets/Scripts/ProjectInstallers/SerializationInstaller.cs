@@ -23,7 +23,6 @@ namespace ProjectInstallers
         #region methods
         public override void InstallBindings()
         {
-            Debug.Log("I");
             InstallDB();
             InstallSavingController();
             InstallTextData();
