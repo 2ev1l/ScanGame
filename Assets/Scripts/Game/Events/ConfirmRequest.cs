@@ -1,14 +1,18 @@
 using System;
 using Game.DataBase;
 using Game.UI.Text;
+using Universal.Events;
 
 namespace Game.Events
 {
     [System.Serializable]
-    public sealed class ConfirmRequest : InfoRequest
+    public sealed class ConfirmRequest : ExecutableRequest
     {
         #region fields & properties
+        public Action OnRejected;
         public Action OnConfirmed;
+        public string MainInfo;
+        public string HeaderInfo;
         private bool isConfirmed;
         #endregion fields & properties
 

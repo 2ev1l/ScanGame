@@ -1,3 +1,5 @@
+using DebugStuff;
+using EditorCustom.Attributes;
 using Game.Events;
 using Game.UI.Elements;
 using UnityEngine;
@@ -5,7 +7,7 @@ using Universal.Events;
 
 namespace Game.UI.Overlay
 {
-    public class OverlayConfirmPanel : InfoOverlayPanel
+    public class OverlayConfirmPanel : OverlayPanel<ConfirmRequest>
     {
         #region fields & properties
         public CustomButton ConfirmButton => confirmButton;
@@ -76,5 +78,18 @@ namespace Game.UI.Overlay
             CurrentRequest = null;
         }
         #endregion methods
+
+#if UNITY_EDITOR
+        [Title("Tests")]
+        [SerializeField][DontDraw] private bool ___testBool;
+        [Button(nameof(TestShowPanel))]
+        private void TestShowPanel()
+        {
+            if (!DebugCommands.IsApplicationPlaying()) return;
+            ConfirmRequest cr = new(null, null, new DataBase.LanguageInfo(1, DataBase.TextType.Menu), new(0, DataBase.TextType.Menu));
+            cr.Send();
+        }
+#endif //UNITY_EDITOR
+
     }
 }

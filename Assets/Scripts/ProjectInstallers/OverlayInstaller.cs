@@ -1,4 +1,5 @@
 using EditorCustom.Attributes;
+using Game.DataBase;
 using Game.Events;
 using Game.UI.Overlay;
 using System.Collections;
@@ -39,7 +40,7 @@ namespace ProjectInstallers
         [Button(nameof(TestShowInfoRequest))]
         private void TestShowInfoRequest()
         {
-            new InfoRequest(null, "header", "main text").Send();
+            new InfoRequest(null, "header", new List<HelpInfo>() { new(), new(), new() }).Send();
         }
         [Button(nameof(TestShowConfirmRequest))]
         private void TestShowConfirmRequest()

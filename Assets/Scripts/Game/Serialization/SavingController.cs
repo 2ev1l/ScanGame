@@ -52,6 +52,12 @@ namespace Game.Serialization
         protected override void LoadSettings()
         {
             SettingsData d = LoadJson<SettingsData>(Application.persistentDataPath, SettingsData.SaveName + SettingsData.SaveExtension);
+            if (d == null)
+            {
+                Debug.Log("Settings reset");
+                d = new();
+                SaveJson(Application.persistentDataPath, d, SettingsData.SaveName + SettingsData.SaveExtension);
+            }
             SettingsData.SetData(d);
         }
         private void ResetSettings()

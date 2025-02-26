@@ -11,15 +11,15 @@ namespace Game.UI.Overlay
         #region fields & properties
         public TextMeshProUGUI HeaderText => headerText;
         [SerializeField] private TextMeshProUGUI headerText;
-        public TextMeshProUGUI InfoText => infoText;
-        [SerializeField] private TextMeshProUGUI infoText;
+        [SerializeField] private HelpInfoItemList helpItemList;
         #endregion fields & properties
 
         #region methods
         protected override void UpdateUI(InfoRequest request)
         {
             HeaderText.text = request.HeaderInfo;
-            InfoText.text = request.MainInfo;
+            helpItemList.GetInfo(request.HelpInfos);
+            helpItemList.UpdateListData();
         }
         #endregion methods
     }

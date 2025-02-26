@@ -24,6 +24,7 @@ namespace Universal.Collections.Generic
         public IReadOnlyList<T> Items => _items;
         public IReadOnlyList<T> CurrentPageItems => _currentPageItems;
         protected List<T> _currentPageItems = new();
+        public bool IsLastPage => GetOversizeCount(_data.Count, pageCounter) > positions.Length;
 
         protected IReadOnlyCollection<GameObject> Positions => positions;
         [SerializeField] private GameObject[] positions;
