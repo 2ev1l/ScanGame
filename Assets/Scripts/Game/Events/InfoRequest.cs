@@ -13,7 +13,7 @@ namespace Game.Events
         #region fields & properties
         public Action OnRejected;
         public string HeaderInfo;
-        public List<HelpInfo> HelpInfos;
+        public IReadOnlyList<HelpInfo> HelpInfos;
         #endregion fields & properties
 
         #region methods
@@ -22,13 +22,13 @@ namespace Game.Events
             OnRejected?.Invoke();
         }
         public InfoRequest() { }
-        public InfoRequest(Action onRejected, LanguageInfo headerInfo, List<HelpInfo> HelpInfos)
+        public InfoRequest(Action onRejected, LanguageInfo headerInfo, IReadOnlyList<HelpInfo> HelpInfos)
         {
             this.OnRejected = onRejected;
             this.HeaderInfo = headerInfo.Text;
             this.HelpInfos = HelpInfos;
         }
-        public InfoRequest(Action onRejected, string headerInfo, List<HelpInfo> HelpInfos)
+        public InfoRequest(Action onRejected, string headerInfo, IReadOnlyList<HelpInfo> HelpInfos)
         {
             this.OnRejected = onRejected;
             this.HeaderInfo = headerInfo;

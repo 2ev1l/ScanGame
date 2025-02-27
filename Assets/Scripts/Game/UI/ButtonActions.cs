@@ -31,7 +31,7 @@ namespace Game.UI
         [SerializedMethod]
         public void RequestExit()
         {
-            ConfirmRequest cr = new(Exit, null, new LanguageInfo(4, TextType.Menu), new LanguageInfo(35, TextType.Menu));
+            ConfirmRequest cr = new(Exit, null, new LanguageInfo(28, TextType.Menu), new LanguageInfo(29, TextType.Menu));
             cr.Send();
         }
         private void Exit()

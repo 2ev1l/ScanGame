@@ -46,9 +46,9 @@ namespace Game.Animation
             {
                 positionId = 1;
                 if (useLocalPositions)
-                    MoveObjectGlobal(positions[0].position);
-                else
                     MoveObjectLocal(positions[0].localPosition);
+                else
+                    MoveObjectGlobal(positions[0].position);
             }
 
             ValueTimeChanger vtc = new();

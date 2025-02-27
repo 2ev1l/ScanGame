@@ -130,6 +130,11 @@ namespace Universal.Collections.Generic
             SwitchPage(true);
         }
         protected virtual int GetOversizeCount(int dataCount, int counter) => dataCount - positions.Length * (counter);
+        public virtual void ShowAt(int page)
+        {
+            pageCounter = page;
+            Init(true);
+        }
         public virtual void ShowAt(I listParam)
         {
             int index = _data.FindIndex(x => x.Equals(listParam));
@@ -226,12 +231,6 @@ namespace Universal.Collections.Generic
             if (!IsArrowsEnabled()) return;
             arrowPrev.SetActive(pageCounter > 0);
             arrowNext.SetActive(oversizeCount > positions.Length);
-
-            if (arrowNext.transform.childCount > 0 && arrowPrev.transform.childCount > 0)
-            {
-                arrowNext.transform.GetChild(0).GetComponent<Text>().text = $"{pageCounter + 1}";
-                arrowPrev.transform.GetChild(0).GetComponent<Text>().text = $"{pageCounter - 1}";
-            }
         }
         private bool IsArrowsEnabled() => (arrowNext != null && arrowPrev != null);
 

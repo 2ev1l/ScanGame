@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 314859372775915431}
   - component: {fileID: 1734248599435349113}
   m_Layer: 5
-  m_Name: Scale Raycast
+  m_Name: Button Animated (Scaled)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

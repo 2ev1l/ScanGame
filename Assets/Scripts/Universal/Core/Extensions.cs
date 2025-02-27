@@ -342,7 +342,7 @@ namespace Universal.Core
         /// New list will be cleared and replaced entire with original elements. <br></br>
         /// Creates no garbage. <br></br>
         /// </summary>
-        public static void SetElementsTo<TSource>(this List<TSource> originalList, List<TSource> newList)
+        public static void SetElementsTo<TSource>(this IReadOnlyList<TSource> originalList, List<TSource> newList)
         {
             newList.Clear();
             int listCount = originalList.Count;

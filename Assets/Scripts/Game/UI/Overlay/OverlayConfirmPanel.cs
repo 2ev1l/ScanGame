@@ -2,6 +2,7 @@ using DebugStuff;
 using EditorCustom.Attributes;
 using Game.Events;
 using Game.UI.Elements;
+using TMPro;
 using UnityEngine;
 using Universal.Events;
 
@@ -12,6 +13,8 @@ namespace Game.UI.Overlay
         #region fields & properties
         public CustomButton ConfirmButton => confirmButton;
         [SerializeField] private CustomButton confirmButton;
+        [SerializeField] private TextMeshProUGUI headerText;
+        [SerializeField] private TextMeshProUGUI mainText;
         private bool confirmState = false;
         #endregion fields & properties
 
@@ -52,6 +55,12 @@ namespace Game.UI.Overlay
                 return true;
             }
             return false;
+        }
+        protected override void UpdateUI(ConfirmRequest request)
+        {
+            base.UpdateUI(request);
+            headerText.text = request.HeaderInfo;
+            mainText.text = request.MainInfo;
         }
         private void SetConfirmCtate()
         {

@@ -20,6 +20,7 @@ namespace Game.UI.Overlay
         {
             base.OnEnable();
             ItemList.OnPageSwitched += OnPageSwitched;
+            ItemList.ShowAt(0);
         }
         protected override void OnDisable()
         {
@@ -28,12 +29,9 @@ namespace Game.UI.Overlay
         }
         private void OnPageSwitched()
         {
-            if (closeIcon.activeSelf != ItemList.IsLastPage)
-            {
-                closeIcon.SetActive(ItemList.IsLastPage);
-            }
+            closeIcon.SetActive(!ItemList.IsLastPage);
         }
-        public void GetInfo(List<HelpInfo> helpInfos)
+        public void GetInfo(IReadOnlyList<HelpInfo> helpInfos)
         {
             helpInfos.SetElementsTo(this.helpInfos);
         }
