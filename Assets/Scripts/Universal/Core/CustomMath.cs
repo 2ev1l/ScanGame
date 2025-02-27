@@ -32,6 +32,19 @@ namespace Universal.Core
             Vector3 vec when vec.x >= 0 && vec.y <= 0 => Vector2.right - Vector2.up,
             _ => -Vector2.right - Vector2.up
         };
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns>Result with math quarters 1 => (1, 1); 2 => (-1, 1); 3 => (-1, -1); 4 => (1, -1)</returns>
+        public static Vector2 GetScreenSquare()
+        {
+            Vector2 screen2 = new(Screen.width / 2, Screen.height / 2);
+            Vector2 mousePosition = Input.mousePosition;
+            Vector2 result = Vector2.zero;
+            result.x = (mousePosition.x > screen2.x) ? -1 : 1;
+            result.y = (mousePosition.y > screen2.y) ? -1 : 1;
+            return result;
+        }
         public static Vector3 Project(Vector3 direction, Vector3 surface) => direction - Vector3.Dot(direction, surface) * surface;
         public static bool AreLinesIntersecting(Vector2 l1_p1, Vector2 l1_p2, Vector2 l2_p1, Vector2 l2_p2, bool shouldIncludeEndPoints)
         {

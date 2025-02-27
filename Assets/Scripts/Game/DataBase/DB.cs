@@ -39,6 +39,8 @@ namespace Game.DataBase
         [SerializeField] private DBSOSet<MiniGameInfoSO> miniGames;
         public DBSOSet<MiniGameStageSO> MiniGameStages => miniGameStages;
         [SerializeField] private DBSOSet<MiniGameStageSO> miniGameStages;
+        public DBSOSet<AchievementInfoSO> Achievements => achievements;
+        [SerializeField] private DBSOSet<AchievementInfoSO> achievements;
         #region optimization
 
         #endregion optimization
@@ -70,6 +72,7 @@ namespace Game.DataBase
             helpInfo.CollectAll();
             miniGames.CollectAll();
             miniGameStages.CollectAll();
+            achievements.CollectAll();
 
             EditorUtility.SetDirty(this);
         }
@@ -86,14 +89,26 @@ namespace Game.DataBase
             helpInfo.CatchDefaultExceptions();
 
             CatchNameHandlerExceptions<MiniGameInfoSO, MiniGameInfo>(miniGames);
-            miniGames.CatchExceptions(x => x.Data.PreviewSprite == null, e, "Preview sprite must not be null");
+            CatchPreviewSpriteHandlerExceptions<MiniGameInfoSO, MiniGameInfo>(miniGames);
             miniGames.CatchExceptions(x => x.Data.LockedSprite == null, e, "Locked sprite must not be null");
-
+            
             CatchNameHandlerExceptions<MiniGameStageSO, MiniGameStage>(miniGameStages);
+
+            CatchNameHandlerExceptions<AchievementInfoSO, AchievementInfo>(achievements);
+            CatchDescriptionHandlerExceptions<AchievementInfoSO, AchievementInfo>(achievements);
+            CatchPreviewSpriteHandlerExceptions<AchievementInfoSO, AchievementInfo>(achievements);
         }
         private void CatchNameHandlerExceptions<SO, Data>(DBSOSet<SO> dbset) where SO : DBScriptableObject<Data> where Data : DBInfo, INameHandler
         {
             dbset.CatchExceptions(x => _ = x.Data.NameInfo, "Name info is not correct");
+        }
+        private void CatchDescriptionHandlerExceptions<SO, Data>(DBSOSet<SO> dbset) where SO : DBScriptableObject<Data> where Data : DBInfo, IDescriptionHandler
+        {
+            dbset.CatchExceptions(x => _ = x.Data.DescriptionInfo, "Description info is not correct");
+        }
+        private void CatchPreviewSpriteHandlerExceptions<SO, Data>(DBSOSet<SO> dbset) where SO : DBScriptableObject<Data> where Data : DBInfo, IPreviewSpriteHandler
+        {
+            dbset.CatchExceptions(x => x.Data.PreviewSprite == null, new System.Exception(), "Preview sprite must not be null");
         }
 #endif //UNITY_EDITOR
     }

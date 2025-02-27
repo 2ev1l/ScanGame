@@ -70,4 +70,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 7dc3966ee2c97cb49ae3f4f7688d7559, type: 2}
     - {fileID: 11400000, guid: a78ac6b15fecf07438d602e166182693, type: 2}
     - {fileID: 11400000, guid: fda9bfcdb1105cd4c800997909d4ebc0, type: 2}
+  achievements:
+    data:
+    - {fileID: 11400000, guid: b6ab3fe7e6c438d46a283df7b15e57f0, type: 2}
+    - {fileID: 11400000, guid: 700cdb0d1062ae4419f56a538a7be8db, type: 2}
+    - {fileID: 11400000, guid: 4dd60d7a0496b5544b059ea8213301c5, type: 2}
+    - {fileID: 11400000, guid: 735164accd1fd944396e505a7c7e9464, type: 2}
+    - {fileID: 11400000, guid: 7faca991d80f2b44191513b0c055f7a7, type: 2}
+    - {fileID: 11400000, guid: 4a61df9760eddf747a6933dd5087962e, type: 2}
+    - {fileID: 11400000, guid: c10837bbe908e994f8a41f7342d8f30c, type: 2}
+    - {fileID: 11400000, guid: cf5e801cdaef23544b817f01bd81c76e, type: 2}
   automaticallyUpdateEditor: 0

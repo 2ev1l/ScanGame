@@ -17,9 +17,10 @@ namespace Game.Serialization.World
 
         public MiniGamesData MiniGamesData => miniGamesData;
         [SerializeField] private MiniGamesData miniGamesData = new();
-
+        public AchievementsData AchievementsData => achievementsData;
+        [SerializeField] private AchievementsData achievementsData = new();
         #region optimization
-        
+
         #endregion optimization
         #endregion fields & properties
 
