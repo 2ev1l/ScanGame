@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3150e5570d6190f43bc65489395ca9ec, type: 3}
+  m_Name: MiniGameInfo 1
+  m_EditorClassIdentifier: 
+  data:
+    id: 1
+    nameInfo:
+      id: 2
+      textType: 2
+    previewSprite: {fileID: 21300000, guid: 4a0323834ceadad408f3676fd244f27f, type: 3}
+    lockedSprite: {fileID: 21300000, guid: 73e433bab2d02b44386304a11374cc7f, type: 3}
+    previousMiniGame: {fileID: 11400000, guid: e78337550a8dc714a86d3ecf3707e397, type: 2}

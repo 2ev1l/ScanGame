@@ -15,8 +15,8 @@ namespace Game.Serialization.World
         public static GameData Data => data;
         private static GameData data;
 
-        //public PlayerData PlayerData => playerData;
-        //[SerializeField] private PlayerData playerData = new();
+        public MiniGamesData MiniGamesData => miniGamesData;
+        [SerializeField] private MiniGamesData miniGamesData = new();
 
         #region optimization
         
@@ -24,7 +24,6 @@ namespace Game.Serialization.World
         #endregion fields & properties
 
         #region methods
-        
         public static void SetData(GameData value) => data = value;
         #endregion methods
     }

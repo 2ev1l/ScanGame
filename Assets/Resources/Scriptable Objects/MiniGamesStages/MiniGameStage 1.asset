@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a794a3824538f59479a87fa7c17399ae, type: 3}
+  m_Name: MiniGameStage 1
+  m_EditorClassIdentifier: 
+  data:
+    id: 1
+    nameInfo:
+      id: 11
+      textType: 2
+    miniGames:
+    - {fileID: 11400000, guid: 390df58d50c574b48bfdb7b8f7840d83, type: 2}
+    - {fileID: 11400000, guid: df9cad94d0c73b7419bcca6a4aa8b0fd, type: 2}
+    - {fileID: 11400000, guid: a24a3984c6e660b47bbadebcdc001621, type: 2}

@@ -47,7 +47,13 @@ namespace Game.Serialization
                 json = Cryptography.Decrypt(json);
                 fs.Close();
             }
-            GameData.SetData(JsonUtility.FromJson<GameData>(json));
+            GameData gd = JsonUtility.FromJson<GameData>(json);
+            if (gd == null)
+            {
+                Debug.Log("Game data reset");
+                gd = new();
+            }
+            GameData.SetData(gd);
         }
         protected override void LoadSettings()
         {
