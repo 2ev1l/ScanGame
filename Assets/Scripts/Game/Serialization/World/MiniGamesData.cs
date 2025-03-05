@@ -1,3 +1,4 @@
+using Game.DataBase;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,8 +15,18 @@ namespace Game.Serialization.World
         /// <see cref="{T0}"/> - Mini Game Id
         /// </summary>
         public UnityAction<int> OnMiniGameCompleted;
+        /// <summary>
+        /// <see cref="{T0}"/> - Mini Game Id
+        /// </summary>
+        public UnityAction<int> OnMiniGameChanged;
         public IReadOnlyList<int> CompletedMiniGames => completedMiniGames.Items;
         [SerializeField] private UniqueList<int> completedMiniGames = new();
+        public int LastGame
+        {
+            get => lastGame;
+            set => SetLastGame(value);
+        }
+        [System.NonSerialized] private int lastGame = 0;
         #endregion fields & properties
 
         #region methods
@@ -24,6 +35,11 @@ namespace Game.Serialization.World
             if (!completedMiniGames.TryAddItem(id, x => x == id))
                 return;
             OnMiniGameCompleted?.Invoke(id);
+        }
+        private void SetLastGame(int value)
+        {
+            lastGame = value;
+            OnMiniGameChanged?.Invoke(value);
         }
         #endregion methods
     }

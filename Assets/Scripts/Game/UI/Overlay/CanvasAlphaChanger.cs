@@ -60,7 +60,11 @@ namespace Game.UI.Overlay
                 delegate
                 {
                     if (!up) HideCanvas();
-                    else fadeCanvas.alpha = 1;
+                    else if (fadeCanvas != null) fadeCanvas.alpha = 1;
+                },
+                delegate
+                {
+                    return fadeCanvas == null;
                 });
             fadeTimeChanger.Restart(time);
         }

@@ -8,78 +8,60 @@ using Zenject;
 
 namespace Game.UI.Overlay
 {
-    public class UIStateMachine : DefaultStateMachine
+    [System.Serializable]
+    public class UIStateMachine : Observer
     {
         #region fields & properties
-        public static UIStateMachine Instance => instance;
-        private static UIStateMachine instance;
-        private StateChange oldState = null;
+        [SerializeField] private StateMachine context;
         [SerializeField] private StateChange settingsState;
-        [SerializeField] private List<StateChange> enablePlayerInputStates;
-        [SerializeField] private List<StateChange> returnDefaultStates;
         private bool playerInputWasDisabled = false;
         private bool uiInputWasDisabled = false;
         #endregion fields & properties
 
         #region methods
-        public void ForceInitialize()
+        public override void Dispose()
         {
-            instance = this;
-        }
-        protected override void OnEnable()
-        {
-            base.Context.OnStateChanged += CheckStateChanged;
-            base.OnEnable();
-            InputController.OnKeyDown += CheckDownKey;
-            CheckStateChanged(Context.CurrentState);
-        }
-        protected override void OnDisable()
-        {
-            base.Context.OnStateChanged -= CheckStateChanged;
-            base.OnDisable();
             InputController.OnKeyDown -= CheckDownKey;
-        }
-        private void OnDestroy()
-        {
+            context.OnStateChanged -= CheckStateChanged;
             EnablePlayerInput();
             EnableUIInput();
         }
+        public override void Initialize()
+        {
+            InputController.OnKeyDown += CheckDownKey;
+            context.OnStateChanged += CheckStateChanged;
+            CheckStateChanged(context.CurrentState);
+        }
+
         private void CheckStateChanged(StateChange newState)
         {
-            if (!enablePlayerInputStates.Contains(newState))
-                DisablePlayerInput();
-            else
-                EnablePlayerInput();
-
-            if (newState == Context.DefaultState && oldState == settingsState)
-                EnableUIInput();
             if (newState == settingsState)
+            {
                 DisableUIInput();
-
-            oldState = newState;
+                DisablePlayerInput();
+            }
         }
         private void CheckDownKey(KeyCodeInfo info)
         {
             if (info.Description.Equals(KeyCodeDescription.OpenSettings))
             {
-                if (returnDefaultStates.Contains(Context.CurrentState)) ApplyDefaultState();
-                else ApplyState(settingsState);
+                if (context.CurrentState == settingsState) context.ApplyDefaultState();
+                else context.ApplyState(settingsState);
                 return;
             }
-            if (info.Description.Equals(((UIStateChange)Context.CurrentState).CloseKey))
+            if (info.Description.Equals(((UIStateChange)context.CurrentState).CloseKey))
             {
-                ApplyDefaultState();
+                context.ApplyDefaultState();
                 return;
             }
-
             ApplyStateByKeyCode(info.Description);
         }
         private void ApplyStateByKeyCode(KeyCodeDescription description)
         {
-            foreach (UIStateChange state in base.Context.States.Cast<UIStateChange>())
+            foreach (UIStateChange state in context.States.Cast<UIStateChange>())
             {
                 if (!state.OpenKey.Equals(description)) continue;
-                ApplyState(state);
+                context.ApplyState(state);
                 return;
             }
         }

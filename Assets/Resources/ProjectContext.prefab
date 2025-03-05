@@ -307,6 +307,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d2dad0f09047cb47bf6f4135dddd5cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Context:
+    miniGamesData:
+      completedMiniGames:
+        items: 
+    achievementsData:
+      unlockedAchievements:
+        items: 
   doAutoSave: 1
   autoSaveSeconds: 60
   storedTime: 0

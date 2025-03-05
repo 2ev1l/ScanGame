@@ -1,22 +1,19 @@
-using Game.UI.Overlay;
+using Game.DataBase;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Universal.Behaviour;
-using Zenject;
 
-namespace Game.Installers
+namespace Game.UI.Overlay
 {
-    public class InstancesInstaller : MonoInstaller
+    public class MiniGameState : PanelStateChange
     {
         #region fields & properties
+        public MiniGameInfo GameInfo => gameInfo.Data;
+        [SerializeField] private MiniGameInfoSO gameInfo;
         #endregion fields & properties
 
         #region methods
-        public override void InstallBindings()
-        {
 
-        }
         #endregion methods
     }
 }

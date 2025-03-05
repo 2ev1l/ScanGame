@@ -12,8 +12,6 @@ namespace Game.Serialization.Settings.Input
         [SerializeField] private KeyCodeInfo settingsKey = new(KeyCode.Escape, KeyCodeDescription.OpenSettings);
         public KeyCodeInfo InfoKey => infoKey;
         [SerializeField] private KeyCodeInfo infoKey = new(KeyCode.H, KeyCodeDescription.Info);
-        public KeyCodeInfo HideUIKey => hideUIKey;
-        [SerializeField] private KeyCodeInfo hideUIKey = new(KeyCode.F1, KeyCodeDescription.HideUI);
         #endregion fields & properties
 
         #region methods
@@ -21,7 +19,6 @@ namespace Game.Serialization.Settings.Input
         {
             settingsKey.Key = KeyCode.Escape;
             infoKey.Key = KeyCode.H;
-            hideUIKey.Key = KeyCode.F1;
         }
         public override List<KeyCodeInfo> GetKeys()
         {
@@ -29,7 +26,6 @@ namespace Game.Serialization.Settings.Input
             {
                 SettingsKey,
                 InfoKey,
-                HideUIKey
             };
             return list;
         }

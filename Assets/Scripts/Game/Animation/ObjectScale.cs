@@ -37,7 +37,10 @@ namespace Game.Animation
         {
             scaleChanger.SetValues(scaleable.localScale, info.Scale);
 
-            scaleChanger.SetActions(x => scaleable.localScale = x, delegate { scaleable.localScale = info.Scale; OnScaleEnd(); }, delegate { return scaleable == null; });
+            scaleChanger.SetActions(
+                x => scaleable.localScale = x,
+                delegate { try { scaleable.localScale = info.Scale; OnScaleEnd(); } catch { } },
+                delegate { return scaleable == null; });
             scaleChanger.Restart(scaleTimeMultiplier * info.ScaleTime);
         }
         private void OnScaleEnd()

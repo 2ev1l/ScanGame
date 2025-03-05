@@ -2,6 +2,7 @@ using DebugStuff;
 using EditorCustom.Attributes;
 using Game.Events;
 using Game.Serialization.World;
+using Game.UI.Overlay;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,13 +15,13 @@ namespace Game.Installers
     public class ObserversInstaller : MonoInstaller
     {
         #region fields & properties
-        
+        [SerializeField] private UIStateMachine uiStateMachine;
         #endregion fields & properties
 
         #region methods
         public override void InstallBindings()
         {
-            
+            BindObserverFromInstance(uiStateMachine);
         }
         private void BindObserverFromInstance<T>(T instance) where T : Observer
         {
