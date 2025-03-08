@@ -13,6 +13,7 @@ namespace Game.UI.Overlay
         #region fields & properties
         [SerializeField] private RectTransform panel;
         [SerializeField] private RectTransform panelParent;
+        [SerializeField] private Vector2 offset = Vector2.zero;
         [SerializeField] private bool updatePositionConstantly = false;
         #endregion fields & properties
 
@@ -48,7 +49,7 @@ namespace Game.UI.Overlay
         {
             RectTransformUtility.ScreenPointToLocalPointInRectangle(panelParent, Input.mousePosition, CanvasInitializer.OverlayCamera, out Vector2 localPoint);
             Vector2 square = CustomMath.GetScreenSquare();
-            panel.transform.localPosition = new Vector3(localPoint.x + square.x * (panel.rect.width / 2), localPoint.y + square.y * (panel.rect.height / 2));
+            panel.transform.localPosition = new Vector3(localPoint.x + square.x * (offset.x + panel.rect.width / 2), localPoint.y + square.y * (offset.y + panel.rect.height / 2));
         }
 
         public void UpdateMessage()

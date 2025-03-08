@@ -5,7 +5,7 @@ using UnityEngine;
 namespace Game.DataBase
 {
     [System.Serializable]
-    public class HelpInfo: DBInfo
+    public class HelpInfo
     {
         #region fields & properties
         public LanguageInfo Text => text;
@@ -15,7 +15,12 @@ namespace Game.DataBase
         #endregion fields & properties
 
         #region methods
-
+        public HelpInfo() { }
+        public HelpInfo(LanguageInfo text, Sprite sprite)
+        {
+            this.text = text;
+            this.sprite = sprite;
+        }
         #endregion methods
     }
 }

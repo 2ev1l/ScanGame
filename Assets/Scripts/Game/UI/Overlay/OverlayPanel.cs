@@ -36,7 +36,7 @@ namespace Game.UI.Overlay
         }
         public virtual bool CanExecuteRequest(ExecutableRequest request)
         {
-            return request.GetType() == typeof(InfoRequest);
+            return request.GetType() == typeof(T);
         }
         public override bool TryExecuteRequest(ExecutableRequest request)
         {

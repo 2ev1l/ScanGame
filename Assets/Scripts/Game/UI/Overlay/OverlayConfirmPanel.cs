@@ -36,10 +36,6 @@ namespace Game.UI.Overlay
             if (CurrentRequest != null)
                 ExecuteRequest();
         }
-        public override bool CanExecuteRequest(ExecutableRequest request)
-        {
-            return request is ConfirmRequest;
-        }
         public override bool TryExecuteRequest(ExecutableRequest request)
         {
             if (CanExecuteRequest(request))

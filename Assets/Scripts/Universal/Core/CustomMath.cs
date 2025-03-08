@@ -510,6 +510,7 @@ namespace Universal.Core
 
         public static float ConvertToFloat(double value) => System.Convert.ToSingle(value);
         public static float ConvertToFloat(string value) => ConvertToFloat(System.Convert.ToDouble(value.Replace(".", ",")));
+        public static double ConvertToDouble(string value) => System.Convert.ToDouble(value.Replace(".", ","));
         #endregion methods
     }
     public enum LogicalOperation { Greater, Less };

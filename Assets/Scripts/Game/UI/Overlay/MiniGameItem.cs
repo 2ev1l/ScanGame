@@ -33,10 +33,9 @@ namespace Game.UI.Overlay
             raycastImage.enabled = isPreviousMiniGameCompleted;
             nameText.text = Context.NameInfo.Text;
         }
-        [Todo("Send mini game to buffer")]
         public void LoadMiniGame()
         {
-            //mini games instance.game = ...
+            MiniGameLoader.LastGame = Context.Id;
             SceneLoader.LoadScene("Game");
         }
         #endregion methods

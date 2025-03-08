@@ -4,11 +4,12 @@ using UnityEngine;
 
 namespace Game.DataBase
 {
-    [CreateAssetMenu(fileName = "HelpInfoSO", menuName = "ScriptableObjects/HelpInfoSO")]
-    public class HelpInfoSO : DBScriptableObject<HelpInfo>
+    [System.Serializable]
+    public class HelpInfos : DBInfo
     {
         #region fields & properties
-
+        public IReadOnlyList<HelpInfo> Infos => infos;
+        [SerializeField] private List<HelpInfo> infos = new();
         #endregion fields & properties
 
         #region methods

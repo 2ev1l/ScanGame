@@ -19,6 +19,7 @@ namespace Game.UI.Overlay
         [SerializeField] private TextMeshProUGUI nameText;
         [SerializeField] private Color lockedColor;
         [SerializeField] private GameObject lockedInfo;
+        [SerializeField] private DescriptionTrigger descriptionTrigger;
         #endregion fields & properties
 
         #region methods
@@ -31,16 +32,7 @@ namespace Game.UI.Overlay
             preview.sprite = Context.PreviewSprite;
             preview.color = isAchievementUnlocked ? Color.white : lockedColor;
             lockedInfo.SetActive(!isAchievementUnlocked);
-        }
-        [SerializedMethod]
-        public void ShowDescriptionPanel()
-        {
-            new DescriptionPanelRequest(true, Context.DescriptionInfo).Send();
-        }
-        [SerializedMethod]
-        public void HideDescriptionPanel()
-        {
-            new DescriptionPanelRequest(false, Context.DescriptionInfo).Send();
+            descriptionTrigger.DescriptionInfo = Context.DescriptionInfo;
         }
         #endregion methods
     }

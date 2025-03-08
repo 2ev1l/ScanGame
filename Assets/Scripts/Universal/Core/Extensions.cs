@@ -567,6 +567,12 @@ namespace Universal.Core
         /// <param name="epsilon"></param>
         /// <returns></returns>
         public static bool Approximately(this Vector4 a, Vector4 b, float epsilon = EPSILON) => Vector4.SqrMagnitude(a - b) < epsilon;
+        public static bool ApproximatelyEulerAngles(this Vector3 a, Vector3 b, float epsilon = EPSILON)
+        {
+            return Mathf.Abs(Mathf.DeltaAngle(a.x, b.x)) < epsilon &&
+                   Mathf.Abs(Mathf.DeltaAngle(a.y, b.y)) < epsilon &&
+                   Mathf.Abs(Mathf.DeltaAngle(a.z, b.z)) < epsilon;
+        }
 
         public static float Max(this Vector2 vector2) => Mathf.Max(vector2.x, vector2.y);
         public static float Min(this Vector2 vector2) => Mathf.Min(vector2.x, vector2.y);
@@ -578,6 +584,31 @@ namespace Universal.Core
         public static Vector3 Abs(this Vector3 vector3) => new(Mathf.Abs(vector3.x), Mathf.Abs(vector3.y), Mathf.Abs(vector3.z));
         public static Vector2 Abs(this Vector2 vector2) => new(Mathf.Abs(vector2.x), Mathf.Abs(vector2.y));
         public static float ClampPosition(this Vector2 vector2, float position) => Mathf.Clamp(position, vector2.Min(), vector2.Max());
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="angles"></param>
+        /// <returns>Angles seen in the inspector (0~360)</returns>
+        public static Vector3 ClampEulerAngles(this Vector3 angles)
+        {
+            return new(angles.x.ClampEulerAngles(), angles.y.ClampEulerAngles(), angles.z.ClampEulerAngles());
+        }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="angles"></param>
+        /// <returns>Angles seen in the inspector (0~360)</returns>
+        public static float ClampEulerAngles(this float eulerAngles)
+        {
+            float result = eulerAngles - Mathf.CeilToInt(eulerAngles / 360f) * 360f;
+            if (result < 0)
+            {
+                result += 360f;
+            }
+            return result;
+        }
+
 
         /// <summary>
         /// 

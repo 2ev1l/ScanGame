@@ -10,6 +10,8 @@ namespace Game.DataBase
         #region fields & properties
         public LanguageInfo NameInfo => nameInfo;
         [SerializeField] private LanguageInfo nameInfo = new(0, TextType.Game);
+        public HelpInfosSO HelpInfo => helpInfo;
+        [SerializeField] private HelpInfosSO helpInfo = null;
         public Sprite PreviewSprite => previewSprite;
         [SerializeField] private Sprite previewSprite;
         public Sprite LockedSprite => lockedSprite;

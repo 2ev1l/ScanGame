@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 967c069221ed3f2449847c3af78e23c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  helpInfo:
+  helpInfos:
     data:
-    - {fileID: 11400000, guid: 1bcc241cedd4bcb48b4cf574785d3ca0, type: 2}
+    - {fileID: 11400000, guid: ecc7a5e4468e2024991ab9c65776533a, type: 2}
   miniGames:
     data:
     - {fileID: 11400000, guid: e78337550a8dc714a86d3ecf3707e397, type: 2}

@@ -21,6 +21,7 @@ namespace Game.UI.Overlay
             base.UpdateUI();
             text.text = Context.Text.Text;
             image.sprite = Context.Sprite;
+            image.enabled = Context.Sprite != null;
         }
         #endregion methods
     }

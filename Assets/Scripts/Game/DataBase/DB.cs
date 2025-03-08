@@ -33,8 +33,8 @@ namespace Game.DataBase
         }
         private static DB instance;
 
-        public DBSOSet<HelpInfoSO> HelpInfo => helpInfo;
-        [SerializeField] private DBSOSet<HelpInfoSO> helpInfo;
+        public DBSOSet<HelpInfosSO> HelpInfos => helpInfos;
+        [SerializeField] private DBSOSet<HelpInfosSO> helpInfos;
         public DBSOSet<MiniGameInfoSO> MiniGames => miniGames;
         [SerializeField] private DBSOSet<MiniGameInfoSO> miniGames;
         public DBSOSet<MiniGameStageSO> MiniGameStages => miniGameStages;
@@ -69,7 +69,7 @@ namespace Game.DataBase
             Undo.RegisterCompleteObjectUndo(this, "Update DB");
 
             //call dbset.CollectAll()
-            helpInfo.CollectAll();
+            helpInfos.CollectAll();
             miniGames.CollectAll();
             miniGameStages.CollectAll();
             achievements.CollectAll();
@@ -86,7 +86,14 @@ namespace Game.DataBase
             //call dbset.CatchExceptions(x => ...)
             System.Exception e = new();
 
-            helpInfo.CatchDefaultExceptions();
+            helpInfos.CatchDefaultExceptions();
+            helpInfos.CatchExceptions(x =>
+            {
+                foreach (var el in x.Data.Infos)
+                {
+                    _ = el.Text.Text;
+                }
+            }, "Wrong text in info");
 
             CatchNameHandlerExceptions<MiniGameInfoSO, MiniGameInfo>(miniGames);
             CatchPreviewSpriteHandlerExceptions<MiniGameInfoSO, MiniGameInfo>(miniGames);

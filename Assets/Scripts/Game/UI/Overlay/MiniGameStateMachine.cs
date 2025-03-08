@@ -22,13 +22,20 @@ namespace Game.UI.Overlay
         protected override void OnEnable()
         {
             base.OnEnable();
-            GameData.Data.MiniGamesData.OnMiniGameChanged += ChangeCurrentGame;
-            ChangeCurrentGame(GameData.Data.MiniGamesData.LastGame);
+            MiniGameLoader.OnMiniGameChanged += ChangeCurrentGame;
+#if UNITY_EDITOR
+            if (loadInEditor)
+            {
+                MiniGameLoader.LastGame = gameToSet;
+                Debug.Log("Loaded from debugger");
+            }
+#endif
+            ChangeCurrentGame(MiniGameLoader.LastGame);
         }
         protected override void OnDisable()
         {
             base.OnDisable();
-            GameData.Data.MiniGamesData.OnMiniGameChanged -= ChangeCurrentGame;
+            MiniGameLoader.OnMiniGameChanged -= ChangeCurrentGame;
         }
         private void ChangeCurrentGame(int value)
         {
@@ -48,11 +55,12 @@ namespace Game.UI.Overlay
         [Title("Tests")]
         [SerializeField][DontDraw] private bool ___testBool;
         [SerializeField][Min(0)] private int gameToSet = 0;
+        [SerializeField] private bool loadInEditor = false;
         [Button(nameof(TestSetGame))]
         private void TestSetGame()
         {
             if (!DebugCommands.IsApplicationPlaying()) return;
-            GameData.Data.MiniGamesData.LastGame = gameToSet;
+            MiniGameLoader.LastGame = gameToSet;
         }
         [Button(nameof(CheckGames))]
         private void CheckGames()

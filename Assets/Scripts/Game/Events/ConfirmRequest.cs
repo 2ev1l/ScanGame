@@ -6,7 +6,7 @@ using Universal.Events;
 namespace Game.Events
 {
     [System.Serializable]
-    public sealed class ConfirmRequest : ExecutableRequest
+    public sealed class ConfirmRequest : PanelRequest
     {
         #region fields & properties
         public Action OnRejected;
