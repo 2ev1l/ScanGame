@@ -20,6 +20,7 @@ namespace Game.Events
         #region methods
         public override bool GetResult()
         {
+            float epsilon = Mathf.Max(this.epsilon * this.epsilon, this.epsilon);
             if (checkRectTransform)
             {
                 RectTransform checkTransform = (RectTransform)checkObject;
