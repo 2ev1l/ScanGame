@@ -2,6 +2,7 @@ using EditorCustom.Attributes;
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting.YamlDotNet.Core.Tokens;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,16 @@ namespace Game.UI
     {
         #region fields & properties
         [SerializeField] private Transform refObject;
+        private Image Image
+        {
+            get
+            {
+                if (image == null)
+                    image = refObject.GetComponent<Image>();
+                return image;
+            }
+        }
+        private Image image;
         #endregion fields & properties
 
         #region methods
@@ -46,6 +57,17 @@ namespace Game.UI
         [SerializedMethod]
         public void RotateTransformLocalEulerZ(float value) => RotateZ(SetLocalAngles, value);
 
+        [SerializedMethod]
+        public void ImageSetAlpha(float value) => SetAlphaImage(value);
+        [SerializedMethod]
+        public void ImageSetOneMinusAlpha(float value) => SetAlphaImage(1f - Mathf.Abs(value));
+
+        private void SetAlphaImage(float alpha)
+        {
+            Color col = Image.color;
+            col.a = alpha;
+            Image.color = col;
+        }
 
         private void RotateX(Action<Func<Vector3, Vector3>> changeMethod, float value) => changeMethod.Invoke(a => { a.x = value; return a; });
         private void RotateY(Action<Func<Vector3, Vector3>> changeMethod, float value) => changeMethod.Invoke(a => { a.y = value; return a; });
