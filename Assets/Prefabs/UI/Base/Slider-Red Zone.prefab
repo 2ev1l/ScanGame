@@ -275,6 +275,7 @@ GameObject:
   - component: {fileID: 652889784418244163}
   - component: {fileID: 4657682300937481004}
   - component: {fileID: 7333125763466028274}
+  - component: {fileID: 7023146522034148916}
   m_Layer: 6
   m_Name: Red Zone
   m_TagString: Untagged
@@ -354,6 +355,22 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.3137255}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &7023146522034148916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4454239772076241070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df5fee5d252c6f428dea71b55127229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_color1: {r: 1, g: 0.3820755, b: 0.3820755, a: 1}
+  m_color2: {r: 1, g: 0.9137255, b: 0.38039216, a: 1}
+  m_angle: 90
+  m_ignoreRatio: 1
 --- !u!1 &5236355054393065802
 GameObject:
   m_ObjectHideFlags: 0
@@ -477,6 +494,7 @@ GameObject:
   - component: {fileID: 5751603479736016344}
   - component: {fileID: 6533067695605985198}
   - component: {fileID: 6619137941712772701}
+  - component: {fileID: 9011445910613631992}
   m_Layer: 6
   m_Name: Red Zone_01
   m_TagString: Untagged
@@ -556,6 +574,22 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.3137255}
   m_EffectDistance: {x: 4, y: -4}
   m_UseGraphicAlpha: 1
+--- !u!114 &9011445910613631992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6601140082715356282}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9df5fee5d252c6f428dea71b55127229, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_color1: {r: 1, g: 0.3820755, b: 0.3820755, a: 1}
+  m_color2: {r: 1, g: 0.9128337, b: 0.3803922, a: 1}
+  m_angle: -90
+  m_ignoreRatio: 1
 --- !u!1 &6980843611334553978
 GameObject:
   m_ObjectHideFlags: 0
