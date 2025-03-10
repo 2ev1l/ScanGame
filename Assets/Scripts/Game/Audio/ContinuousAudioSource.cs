@@ -66,6 +66,11 @@ namespace Game.Audio
             PlayFromStart();
             audioSource.time = lastTimeSaved;
         }
+        [SerializedMethod]
+        public void Stop()
+        {
+            audioSource.Stop();
+        }
         #endregion methods
 #if UNITY_EDITOR
         private void OnDrawGizmosSelected()

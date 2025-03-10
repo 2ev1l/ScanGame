@@ -18,8 +18,9 @@ namespace Game.Events
         {
             this.value = value;
             Operations?.Invoke();
-            ResultChange?.Invoke(this.value);
+            InvokeResultChange();
         }
+        public void InvokeResultChange() => ResultChange?.Invoke(this.value);
         public void OneMinus()
         {
             this.value = 1 - value;
@@ -32,6 +33,10 @@ namespace Game.Events
         {
             this.value *= scale;
         }
+        public void AddDeltaTime()
+        {
+            this.value += Time.deltaTime;
+        }
         public void Add(float value)
         {
             this.value += value;
@@ -39,6 +44,10 @@ namespace Game.Events
         public void Power(float power)
         {
             this.value = Mathf.Pow(this.value, power);
+        }
+        public void Clamp01()
+        {
+            this.value = Mathf.Clamp01(this.value);
         }
         #endregion methods
     }

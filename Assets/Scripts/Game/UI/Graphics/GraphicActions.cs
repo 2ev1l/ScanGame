@@ -21,6 +21,13 @@ namespace Universal.UI.Graphics
         public void ChangeColor(int index) => graphic.color = colors[index];
 
         public void ChangeColorSettings(int index, Color newColor) => colors[index] = newColor;
+        [SerializedMethod]
+        public void SetAlpha(float value)
+        {
+            Color col = graphic.color;
+            col.a = value;
+            graphic.color = col;
+        }
         #endregion methods
     }
 }
