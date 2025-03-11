@@ -12,7 +12,9 @@ namespace Game.Animation
     public class ObjectRotate : MonoBehaviour
     {
         #region fields & properties
+        public UnityAction OnCycleEnd;
         public UnityAction OnRotateEnd;
+        [SerializeField] private UnityEvent OnCycleEndEvent;
         [SerializeField] private Transform rotatedObject;
 
         [SerializeField] private bool useLocalRotations = false;
@@ -26,6 +28,8 @@ namespace Game.Animation
             set => rotateTime = value;
         }
         [SerializeField][Min(0)] private float rotateTime = 1f;
+        [SerializeField][Min(0)] private float awaitTime = 0f;
+        public int CurrentRotationId => currentRotationId;
         [SerializeField][Min(0)] private int currentRotationId = 0;
         #endregion fields & properties
 
@@ -36,12 +40,18 @@ namespace Game.Animation
         }
         private IEnumerator DoRotateCycle()
         {
+            currentRotationId = 0;
             foreach (var el in rotations)
             {
                 if (rotatedObject == null) yield break;
                 RotateTo(el);
                 yield return new WaitForSeconds(rotateTime);
+                currentRotationId++;
+                if (awaitTime > 0.001f)
+                    yield return new WaitForSeconds(rotateTime);
             }
+            OnCycleEnd?.Invoke();
+            OnCycleEndEvent?.Invoke();
         }
         public void RotateTo(int rotationId)
         {

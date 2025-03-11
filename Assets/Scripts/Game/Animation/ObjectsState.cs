@@ -26,6 +26,20 @@ namespace Game.Animation
             currentState = state;
             objects.ForEach(x => x.SetActive(state));
         }
+        [SerializedMethod]
+        public void SetActiveNext()
+        {
+            GameObject activeObject = objects.Find(x => x.activeSelf);
+            int activeObjectIndex = objects.IndexOf(activeObject);
+            if (activeObjectIndex == objects.Count - 1) return;
+            objects[activeObjectIndex + 1].SetActive(true);
+        }
+        [SerializedMethod]
+        public void DisableFirstActive()
+        {
+            GameObject activeObject = objects.Find(x => x.activeSelf);
+            activeObject.SetActive(false);
+        }
         #endregion methods
     }
 }
