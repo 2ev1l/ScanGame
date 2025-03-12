@@ -10,6 +10,7 @@ namespace Game.Events
         #region fields & properties
         [SerializeField] private UnityEvent<float> ResultChange;
         [SerializeField] private UnityEvent Operations;
+        public float Value => value;
         [SerializeField] private float value = 0f;
         #endregion fields & properties
 
