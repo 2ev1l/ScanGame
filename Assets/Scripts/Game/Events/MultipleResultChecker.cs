@@ -11,6 +11,7 @@ namespace Game.Events
         #region fields & properties
         [SerializeField] private List<ResultChecker> resultCheckers;
         [SerializeField] private ResultCombineOperator combineOperator = ResultCombineOperator.Or;
+        [SerializeField] private bool invokeCheck = false;
         #endregion fields & properties
 
         #region methods
@@ -21,6 +22,8 @@ namespace Game.Events
             for (int i = 0; i < totalCount; ++i)
             {
                 result = combineOperator.Execute(result, resultCheckers[i].GetResult());
+                if (invokeCheck)
+                    resultCheckers[i].Check();
             }
             return result;
         }
