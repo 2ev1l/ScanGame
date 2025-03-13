@@ -20,4 +20,4 @@ MonoBehaviour:
     descriptionInfo:
       id: 9
       textType: 3
-    previewSprite: {fileID: 21300000, guid: 6728ca3b4e510f048925a181b8973b57, type: 3}
+    previewSprite: {fileID: 21300000, guid: de0b9c84fed58bf418ded2ffa5b946d7, type: 3}

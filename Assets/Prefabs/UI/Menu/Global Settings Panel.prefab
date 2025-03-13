@@ -1220,7 +1220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7366112660103675320, guid: 76eee9e9a6653164d916774b8a3cceab, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -239
+      value: -153
       objectReference: {fileID: 0}
     - target: {fileID: 7366112660103675320, guid: 76eee9e9a6653164d916774b8a3cceab, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3441,6 +3441,10 @@ PrefabInstance:
     - target: {fileID: 8051082626819797386, guid: 76eee9e9a6653164d916774b8a3cceab, type: 3}
       propertyPath: m_Name
       value: Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 8051082626819797386, guid: 76eee9e9a6653164d916774b8a3cceab, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8138243182880860222, guid: 76eee9e9a6653164d916774b8a3cceab, type: 3}
       propertyPath: m_AnchoredPosition.y
