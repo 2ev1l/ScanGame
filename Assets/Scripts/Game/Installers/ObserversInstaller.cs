@@ -16,12 +16,14 @@ namespace Game.Installers
     {
         #region fields & properties
         [SerializeField] private UIStateMachine uiStateMachine;
+        [SerializeField] private AchievementObserver achievementObserver;
         #endregion fields & properties
 
         #region methods
         public override void InstallBindings()
         {
             BindObserverFromInstance(uiStateMachine);
+            BindObserverFromInstance(achievementObserver);
         }
         private void BindObserverFromInstance<T>(T instance) where T : Observer
         {

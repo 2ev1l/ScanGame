@@ -24,15 +24,18 @@ namespace Game.UI.Overlay
         #region methods
         protected virtual void OnEnable()
         {
-            CloseButton.OnClicked += CloseUI;
+            if (CloseButton != null)
+                CloseButton.OnClicked += CloseUI;
         }
         protected virtual void OnDisable()
         {
-            CloseButton.OnClicked -= CloseUI;
+            if (CloseButton != null)
+                CloseButton.OnClicked -= CloseUI;
         }
         protected virtual void OnDestroy()
         {
-            CloseButton.OnClicked = null;
+            if (CloseButton != null)
+                CloseButton.OnClicked = null;
         }
         public virtual bool CanExecuteRequest(ExecutableRequest request)
         {
@@ -44,14 +47,16 @@ namespace Game.UI.Overlay
             {
                 CurrentRequest = (T)request;
                 OpenUI(CurrentRequest);
-                CloseButton.OnClicked += ExecuteRequest;
+                if (CloseButton != null)
+                    CloseButton.OnClicked += ExecuteRequest;
                 return true;
             }
             return false;
         }
         protected virtual void ExecuteRequest()
         {
-            CloseButton.OnClicked -= ExecuteRequest;
+            if (CloseButton != null)
+                CloseButton.OnClicked -= ExecuteRequest;
             currentRequest.Close();
         }
         public void OpenUI(T request)

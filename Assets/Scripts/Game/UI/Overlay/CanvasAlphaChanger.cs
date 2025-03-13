@@ -12,10 +12,12 @@ namespace Game.UI.Overlay
     public class CanvasAlphaChanger
     {
         #region fields & properties
+        public UnityAction OnCycleEnd;
         public UnityAction OnFadeUp;
         public UnityAction OnFadeDown;
         public CanvasGroup FadeCanvas => fadeCanvas;
         [SerializeField] private CanvasGroup fadeCanvas;
+        [SerializeField] private bool disableCanvasAtEnd = true;
         [SerializeField] private ValueTimeChanger fadeTimeChanger;
         public float LastFadingTime => lastFadingTime;
         private float lastFadingTime = 0f;
@@ -28,17 +30,19 @@ namespace Game.UI.Overlay
         public void HideCanvas()
         {
             fadeCanvas.alpha = 0;
-            fadeCanvas.gameObject.SetActive(false);
+            if (disableCanvasAtEnd)
+                fadeCanvas.gameObject.SetActive(false);
         }
         public void FadeDown() => Fade(false);
         public void FadeUp() => Fade(true);
 
-        public IEnumerator DoCycle(float animationSpeed = 1f)
+        public IEnumerator DoCycle(float animationSpeed = 1f, float await = 0f)
         {
             Fade(true, animationSpeed);
-            yield return new WaitForSeconds(1f / animationSpeed);
+            yield return new WaitForSeconds(1f / animationSpeed + await);
             Fade(false, animationSpeed);
             yield return new WaitForSeconds(1f / animationSpeed);
+            OnCycleEnd?.Invoke();
         }
         public void Fade(bool fadeUp, float animationSpeed = 1f)
         {
