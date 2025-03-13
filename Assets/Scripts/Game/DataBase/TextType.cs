@@ -9,7 +9,7 @@ namespace Game.DataBase
         None,
         Menu,
         Game,
-        Task,
+        Achievement,
     }
     #endregion enum
 
@@ -29,7 +29,7 @@ namespace Game.DataBase
             TextType.None => "",
             TextType.Menu => data.MenuData[id],
             TextType.Game => data.GameData[id],
-            TextType.Task => data.TasksData[id],
+            TextType.Achievement => data.AchievementsData[id],
             _ => throw new System.NotImplementedException($"Text Type {textType}"),
         };
         #endregion methods

@@ -13,8 +13,8 @@ namespace Game.DataBase
         [SerializeField][TextArea(0, 30)] private string[] menuData;
         public string[] GameData => gameData;
         [SerializeField][TextArea(0, 30)] private string[] gameData;
-        public string[] TasksData => tasksData;
-        [SerializeField][TextArea(0, 30)] private string[] tasksData;
+        public string[] AchievementsData => achievementsData;
+        [SerializeField][TextArea(0, 30)] private string[] achievementsData;
 
         public float AverageCharacterReadingPerSecond => averageCharacterReadingPerMinute / 60;
         [SerializeField] private float averageCharacterReadingPerMinute = 1500;

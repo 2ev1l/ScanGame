@@ -60,7 +60,7 @@ namespace Game.DataBase
         {
             DebugTextEntriesIn(TextType.Menu, languageData.MenuData);
             DebugTextEntriesIn(TextType.Game, languageData.GameData);
-            DebugTextEntriesIn(TextType.Task, languageData.TasksData);
+            DebugTextEntriesIn(TextType.Achievement, languageData.AchievementsData);
         }
         private void DebugTextEntriesIn(TextType type, string[] array)
         {
@@ -103,7 +103,7 @@ namespace Game.DataBase
             if (!debugTextOnValidate) return;
             CheckMultipleArrayEntries(languageData.MenuData, "Menu");
             CheckMultipleArrayEntries(languageData.GameData, "Game");
-            CheckMultipleArrayEntries(languageData.TasksData, "Tasks");
+            CheckMultipleArrayEntries(languageData.AchievementsData, "Achievements");
         }
         private void CheckMultipleArrayEntries(string[] array, string name)
         {

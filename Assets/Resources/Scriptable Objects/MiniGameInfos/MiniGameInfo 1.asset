@@ -18,6 +18,6 @@ MonoBehaviour:
       id: 2
       textType: 2
     helpInfo: {fileID: 11400000, guid: c2d062fbc29fea443970f4a22b96753b, type: 2}
-    previewSprite: {fileID: 21300000, guid: 4a0323834ceadad408f3676fd244f27f, type: 3}
+    previewSprite: {fileID: 21300000, guid: c889a928e7f18664cbf0ea08fa8c9a15, type: 3}
     lockedSprite: {fileID: 21300000, guid: 73e433bab2d02b44386304a11374cc7f, type: 3}
     previousMiniGame: {fileID: 11400000, guid: e78337550a8dc714a86d3ecf3707e397, type: 2}

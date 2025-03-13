@@ -15,9 +15,9 @@ MonoBehaviour:
   data:
     id: 0
     nameInfo:
-      id: 19
-      textType: 2
+      id: 0
+      textType: 3
     descriptionInfo:
-      id: 20
-      textType: 2
+      id: 1
+      textType: 3
     previewSprite: {fileID: 21300000, guid: 6728ca3b4e510f048925a181b8973b57, type: 3}

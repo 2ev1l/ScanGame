@@ -354,8 +354,8 @@ MonoBehaviour:
   onHoverEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1974605966591219831}
-        m_TargetAssemblyTypeName: Game.UI.Overlay.AchievementItem, Game.UI.Overlay
+      - m_Target: {fileID: 8741261826408347530}
+        m_TargetAssemblyTypeName: Game.UI.Overlay.DescriptionTrigger, Game.UI.Overlay
         m_MethodName: ShowDescriptionPanel
         m_Mode: 1
         m_Arguments:
@@ -369,8 +369,8 @@ MonoBehaviour:
   onExitEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1974605966591219831}
-        m_TargetAssemblyTypeName: Game.UI.Overlay.AchievementItem, Game.UI.Overlay
+      - m_Target: {fileID: 8741261826408347530}
+        m_TargetAssemblyTypeName: Game.UI.Overlay.DescriptionTrigger, Game.UI.Overlay
         m_MethodName: HideDescriptionPanel
         m_Mode: 1
         m_Arguments:
