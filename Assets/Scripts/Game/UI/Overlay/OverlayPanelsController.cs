@@ -22,7 +22,6 @@ namespace Game.UI.Overlay
         [SerializeField] private List<OverlayPanelBase> overlayPanels;
         public bool IsPanelOpened => isPanelOpened;
         [SerializeField][ReadOnly] private bool isPanelOpened = false;
-        [Inject] private InputController inputController;
         #endregion fields & properties
 
         #region methods

@@ -5,7 +5,6 @@ using TMPro;
 using UnityEngine;
 
 namespace Game.UI.Overlay
-
 {
     public class DescriptionPanelRequestExecutor : AdditionalPanelRequestExecutor
     {

@@ -38,15 +38,6 @@ namespace Game.Events
             }
         }
         private static HashSet<KeyCodeInfo> uiKeys = null;
-        private static HashSet<KeyCodeInfo> PlayerKeys
-        {
-            get
-            {
-                playerKeys ??= GetKeys(Context.PlayerKeys);
-                return playerKeys;
-            }
-        }
-        private static HashSet<KeyCodeInfo> playerKeys = null;
 
         private static KeyCodeInfo SettingsStaticKey
         {
@@ -72,8 +63,6 @@ namespace Game.Events
         private static GameObject eventSystem;
 
         //non static fields for debugging
-        private static ActionRequest InputPlayer => Instance.inputPlayer;
-        [SerializeField] private ActionRequest inputPlayer = new();
         private static ActionRequest InputUI => Instance.inputUI;
         [SerializeField] private ActionRequest inputUI = new();
         private static ActionRequest InputEventSystem => Instance.inputEventSystem;
@@ -105,21 +94,10 @@ namespace Game.Events
         public static void LockFullInput(int blockLevel)
         {
             InputUI.AddBlockLevel(blockLevel);
-            InputPlayer.AddBlockLevel(blockLevel);
         }
         public static void UnlockFullInput(int blockLevel)
         {
             InputUI.RemoveBlockLevel(blockLevel);
-            InputPlayer.RemoveBlockLevel(blockLevel);
-        }
-
-        public static void LockPlayerInput(int blockLevel)
-        {
-            InputPlayer.AddBlockLevel(blockLevel);
-        }
-        public static void UnlockPlayerInput(int blockLevel)
-        {
-            InputPlayer.RemoveBlockLevel(blockLevel);
         }
 
         public static void LockUIInput(int blockLevel)
@@ -134,7 +112,6 @@ namespace Game.Events
         private static void Update()
         {
             CheckInputUI();
-            CheckInputPlayer();
         }
         private static void CheckInputUI()
         {
@@ -147,11 +124,6 @@ namespace Game.Events
             CheckKeysActions(UIKeys);
         }
 
-        private static void CheckInputPlayer()
-        {
-            if (!InputPlayer.CanExecute(0)) return;
-            CheckKeysActions(PlayerKeys);
-        }
         private static void CheckKeysActions(HashSet<KeyCodeInfo> keys)
         {
             foreach (KeyCodeInfo key in keys)

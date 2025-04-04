@@ -41,9 +41,6 @@ namespace Game.DataBase
         [SerializeField] private DBSOSet<MiniGameStageSO> miniGameStages;
         public DBSOSet<AchievementInfoSO> Achievements => achievements;
         [SerializeField] private DBSOSet<AchievementInfoSO> achievements;
-        #region optimization
-
-        #endregion optimization
         #endregion fields & properties
 
         #region methods

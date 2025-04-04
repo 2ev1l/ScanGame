@@ -10,8 +10,6 @@ namespace Game.Serialization.Settings.Input
         #region fields & properties
         public KeyCodeInfo NoneKey => noneKey;
         [SerializeField] private KeyCodeInfo noneKey = new(KeyCode.None, KeyCodeDescription.None);
-        public PlayerKeys PlayerKeys => playerKeys;
-        [SerializeField] private PlayerKeys playerKeys = new();
         public UIKeys UIKeys => uiKeys;
         [SerializeField] private UIKeys uiKeys = new();
         #endregion fields & properties
@@ -20,7 +18,6 @@ namespace Game.Serialization.Settings.Input
         public override void ResetKeys()
         {
             noneKey.Key = KeyCode.None;
-            playerKeys.ResetKeys();
             uiKeys.ResetKeys();
         }
         /// <summary>
@@ -31,7 +28,6 @@ namespace Game.Serialization.Settings.Input
         {
             List<KeyCodeInfo> list = new();
 
-            list.AddRange(playerKeys.GetKeys());
             list.AddRange(uiKeys.GetKeys());
             return list;
         }

@@ -23,8 +23,9 @@ namespace Game.Serialization.World
         #region methods
         public void AddCompletedMiniGame(int id)
         {
-            if (!completedMiniGames.TryAddItem(id, x => x == id))
-                return;
+            if (id < 0) return;
+            if (id >= DB.Instance.MiniGames.Data.Count) return;
+            if (!completedMiniGames.TryAddItem(id, x => x == id)) return;
             OnMiniGameCompleted?.Invoke(id);
         }
         #endregion methods

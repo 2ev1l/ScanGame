@@ -14,7 +14,6 @@ namespace Game.UI.Overlay
         #region fields & properties
         [SerializeField] private StateMachine context;
         [SerializeField] private StateChange settingsState;
-        private bool playerInputWasDisabled = false;
         private bool uiInputWasDisabled = false;
         #endregion fields & properties
 
@@ -23,7 +22,6 @@ namespace Game.UI.Overlay
         {
             InputController.OnKeyDown -= CheckDownKey;
             context.OnStateChanged -= CheckStateChanged;
-            EnablePlayerInput();
             EnableUIInput();
         }
         public override void Initialize()
@@ -38,7 +36,6 @@ namespace Game.UI.Overlay
             if (newState == settingsState)
             {
                 DisableUIInput();
-                DisablePlayerInput();
             }
         }
         private void CheckDownKey(KeyCodeInfo info)
@@ -76,19 +73,6 @@ namespace Game.UI.Overlay
             if (!uiInputWasDisabled) return;
             InputController.UnlockUIInput(1);
             uiInputWasDisabled = false;
-        }
-
-        private void DisablePlayerInput()
-        {
-            if (playerInputWasDisabled) return;
-            InputController.LockPlayerInput(1);
-            playerInputWasDisabled = true;
-        }
-        private void EnablePlayerInput()
-        {
-            if (!playerInputWasDisabled) return;
-            InputController.UnlockPlayerInput(1);
-            playerInputWasDisabled = false;
         }
         #endregion methods
     }

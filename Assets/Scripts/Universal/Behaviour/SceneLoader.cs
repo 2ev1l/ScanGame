@@ -28,31 +28,25 @@ namespace Universal.Behaviour
         public static float LoadingDefaultTime { get; private set; } = 0.5f;
         public static Scene CurrentScene => SceneManager.GetActiveScene();
         private static string SceneToLoad;
-        private static bool DisableLoadingScreen = true;
-        private static readonly string loadingSceneName = "Loading";
         #endregion fields & properties
 
         #region methods
-        public static void LoadScene(string scene, bool disableLoadingScreen = true) => LoadScene(scene, LoadingDefaultTime, disableLoadingScreen);
-        public static void LoadScene(string scene, float time, bool disableLoadingScreen = true)
+        public static void LoadScene(string scene) => LoadScene(scene, LoadingDefaultTime);
+        public static void LoadScene(string scene, float time)
         {
             OnStartLoading?.Invoke(time);
             IsSceneLoading = true;
             SceneToLoad = scene;
-            DisableLoadingScreen = disableLoadingScreen;
             RemoveEvents();
-            SingleGameInstance.Instance.StartCoroutine(LoadScene(SceneToLoad, time));
+            SingleGameInstance.Instance.StartCoroutine(LoadSceneIEnumerator(SceneToLoad, time));
         }
-        private static IEnumerator LoadScene(string scene, float timeToAwait)
+        private static IEnumerator LoadSceneIEnumerator(string scene, float timeToAwait)
         {
             yield return new WaitForSeconds(timeToAwait);
             string oldScene = SceneManager.GetActiveScene().name;
             IsSceneLoading = true;
             if (SavingUtils.Instance.CanSave())
                 SavingUtils.Instance.SaveGameData();
-
-            if (!DisableLoadingScreen)
-                yield return WaitLoadingScreen();
 
             AsyncOperation newSceneLoad = SceneManager.LoadSceneAsync(scene);
             while (!newSceneLoad.isDone)
@@ -64,14 +58,6 @@ namespace Universal.Behaviour
             IsSceneLoading = false;
             OnSceneLoaded?.Invoke();
             OnSceneChanged?.Invoke(oldScene, scene);
-        }
-        private static IEnumerator WaitLoadingScreen()
-        {
-            AsyncOperation loadingScene = SceneManager.LoadSceneAsync(loadingSceneName);
-            yield return loadingScene;
-            OnSceneLoaded?.Invoke();
-            yield return new WaitForSeconds(0.5f);
-            OnStartLoading?.Invoke(LoadingDefaultTime);
         }
         private static void RemoveEvents()
         {

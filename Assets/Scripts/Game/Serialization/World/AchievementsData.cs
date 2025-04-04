@@ -1,3 +1,4 @@
+using Game.DataBase;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -21,8 +22,9 @@ namespace Game.Serialization.World
         #region methods
         public bool TryUnlockAchievement(int id)
         {
-            if (!unlockedAchievements.TryAddItem(id, x => x == id))
-                return false;
+            if (id < 0) return false;
+            if (id >= DB.Instance.Achievements.Data.Count) return false;
+            if (!unlockedAchievements.TryAddItem(id, x => x == id)) return false;
             OnAchievementUnlocked?.Invoke(id);
             return true;
         }
